@@ -227,21 +227,21 @@
         <h1>My work</h1>
       <h3>Projects</h3>
       <div class="work__categories">
-        <button class="category__btn active">
+        <button class="category__btn active" data-filter="*">
           All <span class="category__count">8</span>
         </button>
-        <button class="category__btn">
+        <button class="category__btn" data-filter="web-page">
           Web page <span class="category__count">3</span>
         </button>
-        <button class="category__btn">
+        <button class="category__btn" data-filter="react">
           React <span class="category__count">3</span>
         </button>
-        <button class="category__btn">
+        <button class="category__btn" data-filter="mobile">
           Mobile <span class="category__count">2</span>
         </button>
       </div>
       <div class="work__projects">
-        <a href="#" class="project" target="blank">
+        <a href="#" class="project" target="blank" data-type="web-page">
           <img
             class="project__img"
             src="imgs/projects/project1.png"
@@ -252,7 +252,7 @@
             <span>Clone coding with HTML and CSS</span>
           </div>
         </a>
-        <a href="#" class="project" target="blank">
+        <a href="#" class="project" target="blank" data-type="mobile">
           <img
             class="project__img"
             src="imgs/projects/project2.png"
@@ -263,7 +263,7 @@
             <span>New Project..</span>
           </div>
         </a>
-        <a href="#" class="project" target="blank">
+        <a href="#" class="project" target="blank" data-type="web-page">
           <img
             class="project__img"
             src="imgs/projects/project3.png"
@@ -274,7 +274,7 @@
             <span>New Project..</span>
           </div>
         </a>
-        <a href="#" class="project" target="blank">
+        <a href="#" class="project" target="blank" data-type="web-page">
           <img
             class="project__img"
             src="imgs/projects/project4.png"
@@ -285,7 +285,7 @@
             <span>New Project..</span>
           </div>
         </a>
-        <a href="#" class="project" target="blank">
+        <a href="#" class="project" target="blank" data-type="mobile">
           <img
             class="project__img"
             src="imgs/projects/project5.png"
@@ -296,7 +296,7 @@
             <span>New Project..</span>
           </div>
         </a>
-        <a href="#" class="project" target="blank">
+        <a href="#" class="project" target="blank" data-type="react">
           <img
             class="project__img"
             src="imgs/projects/project6.png"
@@ -307,7 +307,7 @@
             <span>New Project..</span>
           </div>
         </a>
-        <a href="#" class="project" target="blank">
+        <a href="#" class="project" target="blank" data-type="mobile">
           <img
             class="project__img"
             src="imgs/projects/project7.png"
@@ -318,7 +318,7 @@
             <span>New Project..</span>
           </div>
         </a>
-        <a href="#" class="project" target="blank">
+        <a href="#" class="project" target="blank" data-type="react">
           <img
             class="project__img"
             src="imgs/projects/project8.png"
@@ -387,5 +387,9 @@
       </div>
       <p class="contact__rights">2021 JeongBin - All right reserverd</p>
     </section>
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-circle-up"></i>
+    </button>
   </body>
 </html>
