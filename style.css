@@ -110,6 +110,7 @@ p {
 
 .navbar__menu {
   display: flex;
+  margin: 0;
 }
 
 .navbar__logo {
@@ -123,6 +124,9 @@ p {
   cursor: pointer;
   border-radius: var(--size-border-radius);
   border: 1px solid transparent;
+}
+.navbar__menu__item.active {
+  border: 1px solid var(--color-white);
 }
 
 .navbar__menu__item:hover {
@@ -540,7 +544,7 @@ p {
 
   .section {
     padding: 16px;
-    padding-top: 60px;
+    padding-top: 40px;
   }
 
   .about__majors {
